@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+table {
+    margin: 50px auto;
+    border: 2px solid black;
+    width: 70%;
+    border-collapse: collapse;
+    font-family: 'Courier Prime', monospace;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 1rem;
+    text-align: left;
+} 
+
+table tr:nth-of-type(4) td:nth-of-type(1) {
+    background: rgba(255, 166, 0, 0.733);
+    color: white;
+}
+
+table tr:nth-of-type(5) td:nth-of-type(1) {
+    background: rgba(0, 0, 255, 0.612);
+    color: white;
+}
+
+table tr:nth-of-type(6) td:nth-of-type(1) {
+    background: rgba(7, 179, 7, 0.7);
+    color: white;
+}
